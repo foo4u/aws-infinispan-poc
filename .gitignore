@@ -1,0 +1,11 @@
+# Gradle and IDE
+.gradle
+.idea
+build/*
+*.iml
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+build

@@ -1,0 +1,8 @@
+.git
+.gradle
+.idea
+*.iml
+src
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

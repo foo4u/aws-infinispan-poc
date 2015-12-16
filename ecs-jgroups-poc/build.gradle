@@ -1,0 +1,28 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.5.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+repositories {
+    jcenter()
+}
+
+ext {
+    springBootVersion = '1.2.5.RELEASE'
+}
+
+dependencies {
+    compile("org.jgroups:jgroups:3.6.4")
+    compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-actuator:${springBootVersion}")
+
+    testCompile("junit:junit:4.12")
+}

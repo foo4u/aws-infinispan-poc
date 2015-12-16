@@ -1,0 +1,16 @@
+
+node1:
+    build: .
+    environment:
+        - EXTERNAL_HOST_IP=192.168.99.100
+        - JGROUPS_BIND_PORT=7800
+    ports:
+        - "7800:7800"
+
+node2:
+    build: .
+    environment:
+        - EXTERNAL_HOST_IP=192.168.99.100
+        - JGROUPS_BIND_PORT=7801
+    ports:
+        - "7801:7801"

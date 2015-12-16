@@ -1,0 +1,5 @@
+*             text=auto
+*.java        text
+*.config      text
+gradlew.bat   eol=crlf
+

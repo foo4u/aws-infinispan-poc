@@ -1,0 +1,7 @@
+#endpoints:
+#  beans:
+#    enabled: false
+#  health:
+#    sensitive: true
+#  jmx:
+#    enabled: false
